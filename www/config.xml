@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.wfc2015"
-		versionCode = "4" 
-        version   = "1.0.1">
+		versionCode = "5" 
+        version   = "1.0.2">
 
     <name>WFC 2015</name>
 
@@ -86,6 +86,11 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
+
+
+	 
+
+	
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
@@ -96,6 +101,9 @@
     <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+	<icon src="res/icon/ios/icon76.png" 			gap:platform="ios" 		  width="76" height="76" />
+	<icon src="res/icon/ios/icon120.png" 			gap:platform="ios"        width="120" height="120"/> 
+	<icon src="res/icon/ios/icon152.png" 			gap:platform="ios"        width="152" height="152"/>
     <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />

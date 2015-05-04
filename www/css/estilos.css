@@ -314,7 +314,7 @@ body {
 	text-align: center;
 	background: none;
 	border: none;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: #073c78;
 	font-family: helvetica;
 	width: 95%;
@@ -623,14 +623,14 @@ body {
 	background-size:auto 30px;
 }
 .horario_temas {
-	font-size: 22px;
+	font-size: 0.9rem;
 	color: #ff0099;
 	padding: 20px;
 	padding-left: 30%;
 	padding-right: 8%
 }
 .horario_todo {
-	font-size: 18px;
+	font-size: 0.9rem;
 	color: #333;
 	padding: 20px;
 	padding-left: 30%;
@@ -713,18 +713,18 @@ body {
 	-khtml-border-radius: 100px;
 	overflow: hidden;
 	position: absolute;
-	border: 10px solid #FFFFFF;
+	border: 5px solid #FFFFFF;
 	background-size: 100% 100%;
 }
 
 
 #agrandar{
-	-ms-transform: scale(1.3); /* IE 9 */
-    -webkit-transform: scale(1.3); /* Safari */
-    transform: scale(1.3);
+	-ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari */
+    transform: scale(1.2);
 	position:absolute;
-	top:230px;
-	left:39%
+	top:140px;
+	left:38%
 }
 .ir_map {
 	cursor: pointer
